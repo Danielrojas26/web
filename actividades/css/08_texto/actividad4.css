@@ -1,0 +1,23 @@
+
+@font-face {
+    font-family: 'FuenteTitulo';
+        src: url('fuentes/SNPro-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FuenteTexto';
+    src: url('fuentes/Roboto-Italic-VariableFont_wdth\,wght.ttf') format('truetype');
+}
+
+
+.fuente {
+    .fuente__titulo {
+        font-family: 'FuenteTitulo', cursive;
+        font-size: 2.5rem;
+    }
+
+    .fuente__texto {
+        font-family: 'FuenteTexto', sans-serif;
+        font-size: 1.1rem;
+    }
+}
