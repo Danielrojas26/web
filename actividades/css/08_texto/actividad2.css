@@ -1,0 +1,26 @@
+.moby {
+    max-width: 700px;
+    margin: 0 auto;
+    font-family: sans-serif;
+
+    
+    .moby__titulo {
+        font-size: 3rem;
+        font-style: italic;
+        font-weight: bold;
+        letter-spacing: 15px;
+
+    }
+
+    .moby__apellido {
+        margin-left: 20px;
+    }
+
+    .moby__capitulo {
+        text-transform: uppercase;
+    }
+
+    .moby__texto {
+        text-align: justify;
+    }
+}
