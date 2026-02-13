@@ -1,0 +1,15 @@
+.moby {
+    max-width: 700px;
+    margin: 0 auto;
+    font-family: sans-serif;
+
+    .moby__titulo {
+        font-size: 3rem;
+        font-style: italic;
+        font-weight: bold;
+
+    }
+    .moby__texto {
+        font-weight:normal;
+    }
+}
