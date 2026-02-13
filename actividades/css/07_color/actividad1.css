@@ -1,0 +1,19 @@
+.historia {
+    font-family: sans-serif;
+
+    .historia__marca { color: gold; font-weight: bold; }
+    
+    .historia__fecha {
+        background-color: blue;
+        color: white;
+        padding: 0 5px;
+    }
+
+    .historia__categoria { color: purple; } 
+
+    .historia__especial {
+        background-color:green; 
+        color: white;
+        padding: 0 5px;
+    }
+}

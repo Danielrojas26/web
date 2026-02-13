@@ -1,0 +1,31 @@
+.moby {
+    max-width: 700px;
+    margin: 0 auto;
+    font-family: sans-serif;
+
+
+    .moby__titulo {
+        font-size: 3rem;
+        letter-spacing: 15px; 
+        transition: 0.3s;      
+
+        &:hover {
+            font-style: italic; 
+            color: blue;       
+        }
+    }
+
+    .moby__apellido {
+        margin-left: 20px;
+    }
+
+    .moby__capitulo {
+        text-transform: uppercase; 
+        font-weight: bold;        
+        color: red;              
+    }
+
+    .moby__texto {
+        text-align: justify;
+    }
+}
