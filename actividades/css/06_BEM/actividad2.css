@@ -1,0 +1,29 @@
+.comentario {
+    border: 1px solid gray;      
+    padding: 15px;               
+    margin: 20px 0px;             
+    background-color: #ede4e4;   
+
+    .comentario__usuario {
+        font-weight: bold;    
+        color: black;
+        margin-bottom: 2px;   
+    }
+
+    .comentario__fecha {
+        font-size: 0.5rem;      
+        color: grey;             
+    }
+
+    .comentario__texto {
+        margin: 15px 0;         
+        line-height: 1;       
+    }
+
+    .comentario__boton {
+        background-color: white;
+        border: 1px solid black;
+        padding: 5px;
+        cursor:grab;
+    }
+}
