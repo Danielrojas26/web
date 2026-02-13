@@ -1,0 +1,27 @@
+.modificacion {
+    font-family: serif;
+    line-height: 1.8;
+
+
+    .modificacion__parrafo {
+        text-transform: uppercase;
+
+    }
+
+    .modificacion__cursiva {
+        font-style: italic;
+    }
+
+    .modificacion__negrita {
+        font-weight: bold;
+    }
+
+    .modificacion__mayusculas {
+        text-transform: uppercase;
+    }
+
+    .modificacion__resaltado {
+        background-color: yellow;
+        font-style: italic;
+    }
+}
