@@ -1,0 +1,37 @@
+.chat {
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: brown;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.mensaje {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+    align-items: flex-start;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit:cover ;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.fecha {
+    font-size: 0.7rem;
+    color: slategray;
+    margin-left: 10px;
+}
+
+.texto {
+    margin-top: 5px;
+    font-size: 1rem;
+    color: white;
+}
